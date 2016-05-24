@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B49AFE1CF489870017CC69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B49AFD1CF489870017CC69 /* AppDelegate.swift */; };
+		91B49B001CF489870017CC69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B49AFF1CF489870017CC69 /* ViewController.swift */; };
+		91B49B031CF489870017CC69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B49B011CF489870017CC69 /* Main.storyboard */; };
+		91B49B051CF489870017CC69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B49B041CF489870017CC69 /* Assets.xcassets */; };
+		91B49B081CF489870017CC69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B49B061CF489870017CC69 /* LaunchScreen.storyboard */; };
+		91B49C791CF48A0A0017CC69 /* PBKeyDerive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91B49BCF1CF48A0A0017CC69 /* PBKeyDerive.cpp */; };
+		91B49C7A1CF48A0A0017CC69 /* PSCryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91B49BD01CF48A0A0017CC69 /* PSCryptor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91B49AFA1CF489870017CC69 /* ps-play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ps-play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B49AFD1CF489870017CC69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91B49AFF1CF489870017CC69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91B49B021CF489870017CC69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91B49B041CF489870017CC69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91B49B071CF489870017CC69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91B49B091CF489870017CC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B49BCF1CF48A0A0017CC69 /* PBKeyDerive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PBKeyDerive.cpp; sourceTree = "<group>"; };
+		91B49BD01CF48A0A0017CC69 /* PSCryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSCryptor.cpp; sourceTree = "<group>"; };
+		91B49BD11CF48A0A0017CC69 /* PSCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCryptor.h; sourceTree = "<group>"; };
+		91B49BD21CF48A0A0017CC69 /* PSCryptorAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCryptorAPI.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B49AF71CF489870017CC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B49AF11CF489870017CC69 = {
+			isa = PBXGroup;
+			children = (
+				91B49AFC1CF489870017CC69 /* ps-play */,
+				91B49AFB1CF489870017CC69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B49AFB1CF489870017CC69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B49AFA1CF489870017CC69 /* ps-play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B49AFC1CF489870017CC69 /* ps-play */ = {
+			isa = PBXGroup;
+			children = (
+				91B49B0F1CF48A090017CC69 /* connectionsdk */,
+				91B49AFD1CF489870017CC69 /* AppDelegate.swift */,
+				91B49AFF1CF489870017CC69 /* ViewController.swift */,
+				91B49B011CF489870017CC69 /* Main.storyboard */,
+				91B49B041CF489870017CC69 /* Assets.xcassets */,
+				91B49B061CF489870017CC69 /* LaunchScreen.storyboard */,
+				91B49B091CF489870017CC69 /* Info.plist */,
+			);
+			path = "ps-play";
+			sourceTree = "<group>";
+		};
+		91B49B0F1CF48A090017CC69 /* connectionsdk */ = {
+			isa = PBXGroup;
+			children = (
+				91B49BCD1CF48A0A0017CC69 /* photoshopapi */,
+			);
+			path = connectionsdk;
+			sourceTree = "<group>";
+		};
+		91B49BCD1CF48A0A0017CC69 /* photoshopapi */ = {
+			isa = PBXGroup;
+			children = (
+				91B49BCE1CF48A0A0017CC69 /* networking */,
+			);
+			path = photoshopapi;
+			sourceTree = "<group>";
+		};
+		91B49BCE1CF48A0A0017CC69 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				91B49BCF1CF48A0A0017CC69 /* PBKeyDerive.cpp */,
+				91B49BD01CF48A0A0017CC69 /* PSCryptor.cpp */,
+				91B49BD11CF48A0A0017CC69 /* PSCryptor.h */,
+				91B49BD21CF48A0A0017CC69 /* PSCryptorAPI.h */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B49AF91CF489870017CC69 /* ps-play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B49B0C1CF489870017CC69 /* Build configuration list for PBXNativeTarget "ps-play" */;
+			buildPhases = (
+				91B49AF61CF489870017CC69 /* Sources */,
+				91B49AF71CF489870017CC69 /* Frameworks */,
+				91B49AF81CF489870017CC69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ps-play";
+			productName = "ps-play";
+			productReference = 91B49AFA1CF489870017CC69 /* ps-play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B49AF21CF489870017CC69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xuemincai;
+				TargetAttributes = {
+					91B49AF91CF489870017CC69 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 91B49AF51CF489870017CC69 /* Build configuration list for PBXProject "ps-play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91B49AF11CF489870017CC69;
+			productRefGroup = 91B49AFB1CF489870017CC69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B49AF91CF489870017CC69 /* ps-play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B49AF81CF489870017CC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B49B081CF489870017CC69 /* LaunchScreen.storyboard in Resources */,
+				91B49B051CF489870017CC69 /* Assets.xcassets in Resources */,
+				91B49B031CF489870017CC69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B49AF61CF489870017CC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B49C7A1CF48A0A0017CC69 /* PSCryptor.cpp in Sources */,
+				91B49B001CF489870017CC69 /* ViewController.swift in Sources */,
+				91B49AFE1CF489870017CC69 /* AppDelegate.swift in Sources */,
+				91B49C791CF48A0A0017CC69 /* PBKeyDerive.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91B49B011CF489870017CC69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B49B021CF489870017CC69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91B49B061CF489870017CC69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B49B071CF489870017CC69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91B49B0A1CF489870017CC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91B49B0B1CF489870017CC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B49B0D1CF489870017CC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ps-play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xuemincai.ps-play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91B49B0E1CF489870017CC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ps-play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xuemincai.ps-play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B49AF51CF489870017CC69 /* Build configuration list for PBXProject "ps-play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B49B0A1CF489870017CC69 /* Debug */,
+				91B49B0B1CF489870017CC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B49B0C1CF489870017CC69 /* Build configuration list for PBXNativeTarget "ps-play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B49B0D1CF489870017CC69 /* Debug */,
+				91B49B0E1CF489870017CC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B49AF21CF489870017CC69 /* Project object */;
+}
